@@ -58,4 +58,3 @@ a = tk.Button(top, text="Start",width=7, fg='Green',command=process_images,bd=3)
 w = tk.Button(top, text="Exit!", fg='Red',width=10,command=Exit, bd=5).place(x=100, y=180)  # button2
 kp= tk.Button(top, text="Github</>",fg='Black',width=10,bd=5,command=openwb).place(x=250,y=180)
 top.mainloop()
-#
