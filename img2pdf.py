@@ -10,7 +10,6 @@ from tkinter import filedialog  # GUI
 from tkinter import messagebox  # GUI
 from time import sleep
 import webbrowser as wb
-url="https://github.com/HrithikMJ/Image2PDF"
 def process_images():  # the pdf conversion function
     images = []
     num = int(d.get())
@@ -24,8 +23,8 @@ def process_images():  # the pdf conversion function
     imag = filedialog.asksaveasfilename(defaultextension='.pdf')
     im.save(imag, save_all=True, quality=100, append_images=images)
 
-def openwb():
-    wb.open(url)
+def openwb():#to open links
+    wb.open("https://github.com/HrithikMJ/Image2PDF")
 
 
 def Exit():  # exit function
@@ -56,5 +55,5 @@ d = tk.Entry(top, width=10,bd=5)#Entry box
 d.place(x=190, y=100)
 a = tk.Button(top, text="Start",width=7, fg='Green',command=process_images,bd=3).place(x=300, y=98)  # button1
 w = tk.Button(top, text="Exit!", fg='Red',width=10,command=Exit, bd=5).place(x=100, y=180)  # button2
-kp= tk.Button(top, text="Github</>",fg='Black',width=10,bd=5,command=openwb).place(x=250,y=180)
+kp= tk.Button(top, text="GitHub</>",fg='Black',width=10,bd=5,command=openwb).place(x=250,y=180)
 top.mainloop()
