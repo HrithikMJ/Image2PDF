@@ -1,10 +1,5 @@
-# Image2PDF
+# ![alt text](https://github.com/HrithikMJ/Image2PDF/blob/main/Logo.png?raw=true)
 a GUI image to PDF converter based on python,tkinter & PIL
-
-
-
-![alt text](https://github.com/HrithikMJ/Image2PDF/blob/main/Logo.png?raw=true)
-
 
 
 BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.com/HrithikMJ)
