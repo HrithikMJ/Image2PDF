@@ -10,8 +10,8 @@ from tkinter import filedialog  # GUI
 from tkinter import messagebox  # GUI
 from time import sleep
 import webbrowser as wb
+url="https://github.com/HrithikMJ/Image2PDF"
 def process_images():  # the pdf conversion function
-
     images = []
     num = int(d.get())
     for i in range(1, num):
@@ -25,7 +25,7 @@ def process_images():  # the pdf conversion function
     im.save(imag, save_all=True, quality=100, append_images=images)
 
 def openwb():
-    wb.open("https://github.com/HrithikMJ/Image2PDF")
+    wb.open(url)
 
 
 def Exit():  # exit function
@@ -46,7 +46,7 @@ print("\033[1;31m" +""" _____  ____    ____   ______    _____   _______  ______ 
 
 
 
-sleep(1.5)
+sleep(1)
 top = tk.Tk()
 img = tk.PhotoImage(file="Logo.png")#logo
 top.geometry("400x250")  # screen_size
@@ -56,5 +56,5 @@ d = tk.Entry(top, width=10,bd=5)#Entry box
 d.place(x=190, y=100)
 a = tk.Button(top, text="Start",width=7, fg='Green',command=process_images,bd=3).place(x=300, y=98)  # button1
 w = tk.Button(top, text="Exit!", fg='Red',width=10,command=Exit, bd=5).place(x=100, y=180)  # button2
-kp= tk.Button(top, text="Github</>",fg='Black',width=10,bd=5,command=openwb()).place(x=250,y=180)
+kp= tk.Button(top, text="Github</>",fg='Black',width=10,bd=5,command=openwb).place(x=250,y=180)
 top.mainloop()
