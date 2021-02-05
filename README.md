@@ -12,19 +12,19 @@ BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.co
 Requirements:
 
 
-   ~Python3+
+     >Python3+
 
 
 
 Changelog:
 
-   ~v0.1(initial):
+     >v0.1(initial):
 
-      >added cosmetics to code and squashed some bugs  
+        >added cosmetics to code and squashed some bugs  
 
 
 
 
 Known Issues:
 
-   ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
+   >converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
