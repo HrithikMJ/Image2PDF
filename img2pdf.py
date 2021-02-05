@@ -14,7 +14,7 @@ url="https://github.com/HrithikMJ/Image2PDF"
 def process_images():  # the pdf conversion function
     images = []
     num = int(d.get())
-    for i in range(1, num):
+    for i in range(1, num+1):
         fname = filedialog.askopenfilename()
         im = Image.open(fname)
         if im.mode == "RGBA":  # pdf cant read RGBA files
