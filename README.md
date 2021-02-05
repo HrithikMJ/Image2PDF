@@ -2,7 +2,7 @@
 a GUI image to PDF converter based on python,tkinter & PIL
 
 
-![alt text](https://github.com/HrithikMJ/uforun69/blob/main/images/heart1.png?raw=true)
+![alt text](https://github.com/HrithikMJ/Image2PDF/blob/main/Logo.png?raw=true)
 
 Requirements:
 
