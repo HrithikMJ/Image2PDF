@@ -22,4 +22,4 @@ Changelog:
 
 Known Issues:
 
-   ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![alt text](https://github.com/Dharundds))
+   ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
