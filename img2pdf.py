@@ -31,11 +31,6 @@ def openwb():#to open links
 
 
 def Exit():  # exit function
-import webbrowser as wb
-def process_images():  # the pdf conversion function
-    images = []
-    num = int(d.get())
-    d.delete(0,'END
     msgBox = messagebox.askquestion(
         'Exit Application', 'Are you sure wanted to exit', icon='warning')
     if msgBox == 'yes':
