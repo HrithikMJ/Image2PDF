@@ -24,7 +24,7 @@ def process_images():  # the pdf conversion function
     if num != 1:
         im.save(imag, save_all=True, quality=100, append_images=images)
     else:
-        im.save(imag, quality=100)    
+        im.save(imag, quality=100)
 
 def openwb():#to open links
     wb.open("https://github.com/HrithikMJ/Image2PDF")
