@@ -13,15 +13,17 @@ import webbrowser as wb
 def process_images():  # the pdf conversion function
     images = []
     num = int(d.get())
-    for i in range(1, num+1):
+    for i in range(1,num+1):
         fname = filedialog.askopenfilename()
         im = Image.open(fname)
         if im.mode == "RGBA":  # pdf cant read RGBA files
             im = im.convert("RGB")
         images.append(im)
-
     imag = filedialog.asksaveasfilename(defaultextension='.pdf')
-    im.save(imag, save_all=True, quality=100, append_images=images)
+    if num != 1:
+        im.save(imag, save_all=True, quality=100, append_images=images)
+    else:
+        im.save(imag, quality=100)    
 
 def openwb():#to open links
     wb.open("https://github.com/HrithikMJ/Image2PDF")
@@ -44,8 +46,8 @@ print("\033[1;31m" +""" _____  ____    ____   ______    _____   _______  ______ 
                                                                       -DHARUN C & HRITHIK JOSEPH """)
 
 
-
-sleep(1)
+print("\n\n\n\nhttps://github.com/HrithikMJ/Image2PDF")
+sleep(2)
 top = tk.Tk()
 img = tk.PhotoImage(file="Logo.png")#logo
 top.geometry("400x250")  # screen_size
