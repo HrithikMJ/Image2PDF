@@ -8,7 +8,7 @@ BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.co
 
   ~Python3+
 
-  ~run  pip3 install -r req.txt`
+  ~run  `pip3 install -r req.txt`
 
 
 
