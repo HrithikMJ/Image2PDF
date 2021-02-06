@@ -6,8 +6,8 @@ BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.co
 
 >Requirements:
 
-     >>Python3+
-     >>run  `pip3 install -r req.txt`
+     ~Python3+
+     ~run  pip3 install -r req.txt`
 
 
 
@@ -22,6 +22,6 @@ BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.co
 
 >Known Issues:
 
-     >>converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
+     ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
 
-     >>sometimes the first image is repeated in the output twice
+     ~sometimes the first image is repeated in the output twice
