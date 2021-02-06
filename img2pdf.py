@@ -13,6 +13,7 @@ import webbrowser as wb
 def process_images():  # the pdf conversion function
     images = []
     num = int(d.get())
+    d.delete(0,"end")
     for i in range(1,num+1):
         fname = filedialog.askopenfilename()
         im = Image.open(fname)
@@ -30,6 +31,11 @@ def openwb():#to open links
 
 
 def Exit():  # exit function
+import webbrowser as wb
+def process_images():  # the pdf conversion function
+    images = []
+    num = int(d.get())
+    d.delete(0,'END
     msgBox = messagebox.askquestion(
         'Exit Application', 'Are you sure wanted to exit', icon='warning')
     if msgBox == 'yes':
@@ -47,7 +53,7 @@ print("\033[1;31m" +""" _____  ____    ____   ______    _____   _______  ______ 
 
 
 print("\n\n\n\nhttps://github.com/HrithikMJ/Image2PDF")
-sleep(2)
+sleep(1.2)
 top = tk.Tk()
 img = tk.PhotoImage(file="Logo.png")#logo
 top.geometry("400x250")  # screen_size
