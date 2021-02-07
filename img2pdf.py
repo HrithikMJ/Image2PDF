@@ -39,7 +39,7 @@ def process_images():  # the pdf conversion function
 
       try:
           if num != 1:
-              im.save(imag, save_all=True, quality=100, append_images=images)
+              im.save(imag, save_all=True, quality=100, append_images=images[:-1])
           else:
               im.save(imag, quality=100)
       except :
