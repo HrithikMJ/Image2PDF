@@ -2,9 +2,7 @@
 a GUI image to PDF converter based on python,tkinter & PIL
 
 
-BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.com/HrithikMJ)
-
->Requirements:
+###Requirements:
 
   ~Python3+
 
@@ -12,16 +10,16 @@ BY ![Dharundds](https://github.com/Dharundds) and ![HrithikMj](https://github.co
 
 
 
->Changelog:
+###Changelog:
 
-     >>v0.1(initial):
+     ~v0.1(initial):
 
-        >>>added cosmetics to code and squashed some bugs  
-
-
+        ->added cosmetics to code and squashed some bugs  
 
 
->Known Issues:
+
+
+###Known Issues:
 
   ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
 
