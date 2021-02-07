@@ -21,12 +21,12 @@ For Linux/Unix:
 
 For Windows:
 
-    ->open a powershell window
+   ->open a powershell window
 
-    ->"Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
+   ->"Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
 
-      ->for example `"C:\Users\Hrithik\AppData\Local\Programs\Python\Python38-32\python.exe” “C:\Users\Hrithik\Desktop\MyPython\ing2pdf.py”`
+   ->for example `"C:\Users\Hrithik\AppData\Local\Programs\Python\Python38-32\python.exe” “C:\Users\Hrithik\Desktop\MyPython\ing2pdf.py”`
 
 For Android :
 
-    ->Try running it in ![PYDROID3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US&gl=US).
+   ->Try running it in ![PYDROID3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US&gl=US).
