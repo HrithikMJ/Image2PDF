@@ -27,14 +27,15 @@ Changelog:
         ->better error management.
         ->added icon  .
         ->added install.md file to make installation much easier :)
+        ->bug fixes .
 
 
 
 
 Known Issues:
 
-  ~converting multiple images to pdf requires calling function again and again manually(now fixed by ![Dharundds](https://github.com/Dharundds))
+  ~converting multiple images to pdf requires calling function again and again manually.(FIXED in v0.1)
 
-  ~sometimes the first image is repeated in the output twice(now fixed by ![Dharundds](https://github.com/Dharundds))
+  ~sometimes the first image is repeated in the output twice.(FIXED in v0.2)
 
   ~To report any bugs click ![here](https://github.com/HrithikMJ/Image2PDF/issues).
