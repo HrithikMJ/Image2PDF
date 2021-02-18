@@ -15,6 +15,6 @@ echo "....done"
 echo
 echo "installing pillow"
 sleep 1
-pip3 install pillow
+pip3 install pillow==7.0.0
 echo
 echo "....done"
